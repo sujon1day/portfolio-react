@@ -1,0 +1,51 @@
+#menu-icon {
+  display: none;
+}
+nav {
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+}
+.navbar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link {
+  color: black;
+  text-transform: capitalize;
+  transition: 0.3s;
+  font-weight: 500;
+  font-size: 18px;
+}
+.nav-link:hover {
+  color: #f75023;
+}
+.resume-download-button {
+  border: 2px solid #f75023;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+}
+.resume-download-button:hover {
+  background-color: #f75023;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #menu-icon {
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #d5d3dd;
+  }
+  nav {
+    padding-bottom: 2rem;
+  }
+  .hidden {
+    display: none;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}

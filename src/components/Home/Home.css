@@ -1,0 +1,41 @@
+.banner {
+    min-height: 500px;
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .banner-title-h2 {
+    color: #f75023;
+    font-size: 25px;
+  }
+  .banner-title-h1 {
+    font-size: 60px;
+    margin-bottom: 18px;
+  }
+  .banner-title-h3 {
+    font-size: 19px;
+    margin-bottom: 36px;
+  }
+  .banner-text {
+    font-size: 1rem;
+    margin-bottom: 42px;
+    color: #6f6b80;
+    line-height: 1.5;
+  }
+  .hire-me-button {
+    width: 100px;
+    background-color: #f75023;
+    border: 2px solid #f75023 !important;
+    color: white;
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  .hire-me-button:hover {
+    background-color: white;
+    color: black;
+  }

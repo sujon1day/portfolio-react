@@ -1,0 +1,66 @@
+.portfolio-section {
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+  }
+  .portfolio-heading {
+    text-align: center;
+  }
+  .portfolio-heading-title-h3 {
+    color: #f75023;
+    font-size: 24px;
+  }
+  .portfolio-heading-title-h2 {
+    font-size: 48px;
+    margin: 6px 0px 23px;
+  }
+  .portfolio-heading-text {
+    font-size: 18px;
+    color: #6f6b80;
+  }
+  .portfolio {
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  .portfolio-product {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 2px 2px 7px 0 #d5d3dd;
+  }
+  .portfolio-product-image img {
+    width: 100%;
+    height: 280px;
+  }
+  
+  .portfolio-product-details {
+    margin-top: 10px;
+  }
+  .portfolio-product-details-title {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .portfolio-product-details-text {
+    margin-bottom: 10px;
+    color: #6f6b80;
+    line-height: 1.5;
+    font-size: 18px;
+  }
+  .portfolio-product-details-button {
+    background-color: #f75023;
+    border: 2px solid #f75023 !important;
+    color: white;
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .portfolio-product-details-button:hover {
+    background-color: white;
+    color: black;
+  }
